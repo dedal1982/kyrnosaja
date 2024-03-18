@@ -1,4 +1,8 @@
 @import url("https://fonts.cdnfonts.com/css/verano-sans");
+@font-face {
+  font-family: "Tihana";
+  src: url("../fonts/tihana\ .otf") format("opentype");
+}
 * {
   margin: 0;
   padding: 0;
@@ -30,7 +34,7 @@ button {
 .page__content {
   margin: 0 auto;
   padding: 0;
-
+  font-family: "Pangolin", "cursive";
   max-width: 1920px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -115,6 +119,25 @@ button {
   width: 100%;
   margin: 69px 0 280px auto;
 }
+.img-bottom-box h2 {
+  position: absolute;
+  right: 375px;
+  font-family: "Tihana", "cursive";
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 62.35px;
+}
+.promo h3 {
+  max-width: 450px;
+  width: 100%;
+  position: absolute;
+  font-family: "Tihana", "cursive";
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 30px;
+  left: 374px;
+  bottom: 348px;
+}
 .img-bottom-box img {
   z-index: 2;
 }
@@ -165,4 +188,206 @@ button {
   width: 493px;
   height: 319px;
   filter: brightness(30%);
+}
+/*===about===*/
+.about {
+  width: 100%;
+  display: flex;
+}
+.about__wrapper {
+  max-width: 1367px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 106px auto 137px 264px;
+}
+.about__top {
+  width: 100%;
+  height: 972.29px;
+  display: flex;
+  gap: 37px;
+}
+.about__top-left {
+  max-width: 870px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+.about__sircle {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #d9d9d9;
+  position: relative;
+  right: 0;
+  top: 42px;
+}
+.about__sircle::before {
+  position: absolute;
+  content: "";
+  width: 1px;
+  height: 698px;
+  background: #ffffff;
+  left: 15px;
+  top: 32px;
+}
+.about__top-left img {
+  border-radius: 36px;
+}
+.about-img-1 {
+  width: 312px;
+  height: 232px;
+  margin-top: 124px;
+  margin-left: 139px;
+}
+.about-img-2 {
+  width: 312px;
+  height: 234px;
+  margin-top: 203px;
+  margin-left: 35px;
+}
+.about-img-3 {
+  width: 312px;
+  height: 381.91px;
+  position: relative;
+  top: -57px;
+}
+.about-img-4 {
+  width: 312px;
+  height: 233.74px;
+  position: relative;
+  top: 38px;
+  left: 246px;
+}
+.about-img-5 {
+  width: 312px;
+  height: 240px;
+  position: relative;
+  top: -76px;
+  left: 152px;
+  z-index: 3;
+}
+.about-img-6 {
+  width: 312px;
+  height: 234.29px;
+  position: relative;
+  left: 202px;
+  top: -71px;
+}
+.scroll {
+  display: flex;
+  overflow-x: hidden;
+  background: #ffffff66;
+}
+
+.scroll div {
+  padding: 0;
+  white-space: nowrap;
+  display: inline-block;
+}
+
+.div1 {
+  animation: marquee1 20s infinite linear;
+  animation-delay: -20s;
+}
+
+.div2 {
+  animation: marquee2 20s infinite linear;
+  animation-delay: -10s;
+}
+
+.scroll div:after {
+  content: url(../images/anime-1.png);
+}
+
+@keyframes marquee1 {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes marquee2 {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-200%);
+  }
+}
+.about__top-right {
+  max-width: 460px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+}
+.about__top-right h2 {
+  font-family: "Tihana", "cursive";
+  font-weight: 400;
+  font-size: 63px;
+  line-height: 83.14px;
+  margin-top: 20px;
+  margin-left: 12px;
+}
+.about__top-right p {
+  font-family: "Tihana", "cursive";
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 30px;
+}
+.about__bottom {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto 0 296px;
+}
+.about__bottom-top {
+  width: 100%;
+  position: relative;
+}
+.bottom-top-text {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  max-width: 414px;
+  width: 100%;
+  padding-top: 165px;
+  padding-left: 89px;
+  padding-bottom: 56px;
+  border-left: 1px solid #ffffff;
+}
+.bottom-top-text::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 99.51px;
+  height: 0;
+  border-bottom: 1px solid #ffffff;
+}
+.bottom-top-text::after {
+  content: "";
+  position: absolute;
+  top: 188px;
+  left: -17px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #ffffff;
+}
+.bottom-top-text h2 {
+  font-family: "Tihana", "cursive";
+  font-weight: 400;
+  font-size: 63px;
+  line-height: 83.14px;
+  margin-bottom: 15px;
+}
+.bottom-top-text p {
+  font-family: "Tihana", "cursive";
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 32px;
 }
