@@ -289,6 +289,7 @@ button {
 .scroll {
   display: flex;
   overflow-x: hidden;
+  background: #ffffff66;
 }
 
 .scroll div {
@@ -312,6 +313,9 @@ button {
 }
 .scroll-2 div:after {
   content: url(../images/anime-2.png);
+}
+.scroll-3 div:after {
+  content: url(../images/anime-3.png);
 }
 @keyframes marquee1 {
   0% {
