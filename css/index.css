@@ -73,10 +73,20 @@ button {
 }
 .header span {
   display: block;
-  max-width: 1363;
+  max-width: 1363px;
   width: 100%;
   border-bottom: 1px solid #ffffff;
   position: relative;
+}
+.header span::before {
+  position: absolute;
+  content: "";
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background: #ffffff;
+  left: 222px;
+  top: -6px;
 }
 /*===promo===*/
 .promo {
