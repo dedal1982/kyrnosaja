@@ -278,7 +278,6 @@ button {
 .scroll {
   display: flex;
   overflow-x: hidden;
-  background: #ffffff66;
 }
 
 .scroll div {
@@ -437,6 +436,7 @@ button {
 .bottom-down-skill {
   display: flex;
   flex-direction: column;
+  gap: 21px;
   margin-top: 50px;
   margin-left: 173px;
   margin-right: 64px;
@@ -479,4 +479,28 @@ button {
   background: #d9d9d9;
   right: 201px;
   bottom: -6px;
+}
+.down-skill-box-2::before {
+  width: 740px;
+}
+.down-skill-box-2::after {
+  right: 106px;
+}
+.down-skill-box-3::before {
+  width: 594px;
+}
+.down-skill-box-3::after {
+  right: 260px;
+}
+.down-skill-box-4::before {
+  width: 683px;
+}
+.down-skill-box-4::after {
+  right: 168px;
+}
+.down-skill-box-5::before {
+  width: 652px;
+}
+.down-skill-box-5::after {
+  right: 200px;
 }
