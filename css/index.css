@@ -342,11 +342,11 @@ button {
 .about__bottom {
   display: flex;
   flex-direction: column;
-  margin: 0 auto 0 296px;
+  margin: 0 0 0 296px;
 }
 .about__bottom-top {
-  width: 100%;
   position: relative;
+  display: flex;
 }
 .bottom-top-text {
   position: relative;
@@ -358,6 +358,7 @@ button {
   padding-left: 89px;
   padding-bottom: 56px;
   border-left: 1px solid #ffffff;
+  box-sizing: border-box;
 }
 .bottom-top-text::before {
   content: "";
@@ -390,4 +391,45 @@ button {
   font-weight: 400;
   font-size: 30px;
   line-height: 32px;
+}
+.bottom-top-img {
+  position: absolute;
+  top: 90px;
+  right: 79px;
+}
+.about__bottom-down {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.bottom-down-item {
+  margin-top: 96px;
+  margin-right: 228px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 423px;
+  margin-left: auto;
+}
+.about__bottom-down h2 {
+  font-family: "Tihana", "cursive";
+  font-weight: 400;
+  font-size: 63px;
+  line-height: 83.14px;
+}
+.down-item-circle {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #ffffff;
+  position: relative;
+}
+.down-item-circle::before {
+  position: absolute;
+  content: "";
+  width: 1px;
+  height: 220px;
+  background: #ffffff;
+  left: 15px;
+  bottom: 30px;
 }
