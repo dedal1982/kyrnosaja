@@ -199,7 +199,7 @@ button {
   width: 100%;
   display: flex;
   flex-direction: column;
-  margin: 106px auto 137px 264px;
+  margin: 106px auto 178px 264px;
 }
 .about__top {
   width: 100%;
@@ -299,7 +299,9 @@ button {
 .scroll div:after {
   content: url(../images/anime-1.png);
 }
-
+.scroll-2 div:after {
+  content: url(../images/anime-2.png);
+}
 @keyframes marquee1 {
   0% {
     transform: translateX(100%);
