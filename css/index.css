@@ -342,11 +342,12 @@ button {
 .about__bottom {
   display: flex;
   flex-direction: column;
-  margin: 0 0 0 296px;
+  margin: 0;
 }
 .about__bottom-top {
   position: relative;
   display: flex;
+  margin-left: 296px;
 }
 .bottom-top-text {
   position: relative;
@@ -432,4 +433,50 @@ button {
   background: #ffffff;
   left: 15px;
   bottom: 30px;
+}
+.bottom-down-skill {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-left: 173px;
+  margin-right: 64px;
+}
+.down-skill-item {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.down-skill-item h3 {
+  font-family: "Tihana", "cursive";
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 30px;
+}
+.down-skill-box {
+  max-width: 862px;
+  width: 100%;
+  height: 10px;
+  display: flex;
+  margin-top: 6px;
+  background: #d9d9d92b;
+  position: relative;
+}
+.down-skill-box::before {
+  position: absolute;
+  content: "";
+  width: 652px;
+  height: 10px;
+  background: #fffcfcdb;
+  top: 1px;
+}
+.down-skill-box::after {
+  position: absolute;
+  content: "";
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #d9d9d9;
+  right: 201px;
+  bottom: -6px;
 }
