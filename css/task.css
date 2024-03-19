@@ -4,3 +4,22 @@
 .scroll-3 {
   margin-top: 59px;
 }
+.task-1 {
+  width: 100%;
+}
+.task-1__wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 80px auto 0 280px;
+}
+.task-1__top {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.task-1-anime {
+  width: 888.89px;
+  height: 500px;
+  border-radius: 30px;
+}
