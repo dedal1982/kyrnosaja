@@ -11,7 +11,8 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  margin: 95px auto 0 280px;
+  gap: 80px;
+  margin: 95px auto 100px 280px;
 }
 .task-1__top {
   width: 100%;
@@ -52,6 +53,39 @@
   margin-top: 8px;
 }
 .task-1-text p {
+  font-family: "Tihana", "cursive";
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 30px;
+}
+.task-1__centr {
+  max-width: 1356px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.task-1__centr-item {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+}
+.task-1__centr-item h2 {
+  font-family: "Tihana", "cursive";
+  font-weight: 400;
+  font-size: 96px;
+}
+.task-1__centr-content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.task-1__centr-content img {
+  border-radius: 30px;
+}
+.task-1__centr-content p {
+  max-width: 802px;
+  width: 100%;
   font-family: "Tihana", "cursive";
   font-weight: 400;
   font-size: 36px;
