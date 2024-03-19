@@ -16,11 +16,44 @@
 .task-1__top {
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  gap: 69px;
 }
 .task-1-anime {
   width: 888.89px;
   height: 500px;
   border-radius: 30px;
   border: none;
+}
+.task-1-text {
+  max-width: 680px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 107px;
+  gap: 59px;
+}
+.task-1-name {
+  max-width: 680px;
+  width: 100%;
+  height: 57px;
+  background: #ffffff99;
+  display: flex;
+  align-items: center;
+  gap: 37px;
+  padding-left: 6px;
+  box-sizing: border-box;
+}
+.task-1-name h1 {
+  font-family: "Tihana", "cursive";
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 30px;
+  color: #000000;
+  margin-top: 8px;
+}
+.task-1-text p {
+  font-family: "Tihana", "cursive";
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 30px;
 }
