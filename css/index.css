@@ -44,6 +44,22 @@ button {
   color: #ffffff;
   overflow: hidden;
 }
+.bold-a {
+  display: block;
+  font-weight: bold !important;
+  position: relative;
+}
+.bold-a::before {
+  position: absolute;
+  content: "";
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background: #d9d9d9;
+  top: 48px;
+  left: 41px;
+  z-index: 2;
+}
 .header {
   width: 100%;
   display: flex;

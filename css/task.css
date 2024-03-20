@@ -1,6 +1,10 @@
 .header .work::before {
   left: 319px;
 }
+.header .work-1::before {
+  width: 0;
+  height: 0;
+}
 .scroll-3 {
   margin-top: 59px;
 }
@@ -19,9 +23,18 @@
   display: flex;
   gap: 69px;
 }
+.task-5__top {
+  gap: 95px;
+}
 .task-1-anime {
   width: 888.89px;
   height: 500px;
+  border-radius: 30px;
+  border: none;
+}
+.task-5-anime {
+  width: 529px;
+  height: 772px;
   border-radius: 30px;
   border: none;
 }
@@ -33,6 +46,11 @@
   margin-top: 107px;
   gap: 59px;
 }
+.task-5-text {
+  max-width: 990px;
+  margin-top: 98px;
+  gap: 72px;
+}
 .task-1-name {
   max-width: 680px;
   width: 100%;
@@ -43,6 +61,10 @@
   gap: 37px;
   padding-left: 6px;
   box-sizing: border-box;
+}
+.task-5-name {
+  max-width: 990px;
+  gap: 27px;
 }
 .task-1-name h1 {
   font-family: "Tihana", "cursive";
@@ -109,4 +131,9 @@
 }
 .task-1__wrapper-2 {
   margin-bottom: 65px;
+}
+.task-1__wrapper-3 {
+  width: 100%;
+  display: flex;
+  margin: 81px auto 245px 305px;
 }
